@@ -2,6 +2,7 @@ package javaoopexample.immutable;
 
 import java.util.Date;
 
+/*Immutable class is thread-safe*/
 public final class Schedule {
 	private final Date start;
 	private final Date end;
