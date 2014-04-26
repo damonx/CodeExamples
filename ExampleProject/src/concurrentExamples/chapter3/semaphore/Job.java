@@ -1,5 +1,7 @@
 package concurrentExamples.chapter3.semaphore;
 
+/**@author damonx*/
+
 public class Job implements Runnable {
     private PrintQueue printQueue;
 
