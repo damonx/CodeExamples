@@ -1,0 +1,6 @@
+*.[oa]
+*~
+.tmp*
+*.swp
+*.class
+ExampleProject/bin/*.class
