@@ -24,7 +24,7 @@ public class Main {
               }
           }while(!task.isDone());
           
-          
+          //shutdown pool.
           pool.shutdown();
           if(task.isCompletedNormally()){
               System.out.println("Main: The process has completed normally.");
