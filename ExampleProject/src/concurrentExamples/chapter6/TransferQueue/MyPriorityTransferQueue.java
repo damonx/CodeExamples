@@ -79,13 +79,11 @@ public class MyPriorityTransferQueue<E> extends PriorityBlockingQueue<E>
 
     @Override
     public boolean hasWaitingConsumer() {
-        // TODO Auto-generated method stub
         return (counter.get() != 0);
     }
 
     @Override
     public int getWaitingConsumerCount() {
-        // TODO Auto-generated method stub
         return counter.get();
     }
 
