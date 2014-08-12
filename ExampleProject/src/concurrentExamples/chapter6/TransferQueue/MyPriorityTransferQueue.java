@@ -10,6 +10,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class MyPriorityTransferQueue<E> extends PriorityBlockingQueue<E>
         implements TransferQueue<E> {
 
+    private static final long serialVersionUID = 1L;
     private AtomicInteger counter;
     private LinkedBlockingQueue<E> transfered;
     private ReentrantLock lock;
