@@ -7,7 +7,7 @@ public class MasterWorkerTest {
 
 	public static void main(String[] args) {
        Master m = new Master(new PlusWorker(), 5);
-       for(int i=0; i<=10000000; i++){
+       for(int i=0; i<=10; i++){
     	   m.submit(i);
        }
        m.execute();

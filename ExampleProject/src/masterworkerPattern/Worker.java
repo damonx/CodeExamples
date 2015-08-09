@@ -24,9 +24,10 @@ public abstract class Worker implements Runnable {
     	   if(input==null){
     		   break;
     	   }
-    	   
+    	   System.out.println("I am working on: " + input );
     	   Object result = handle(input);
     	   resultMap.put(Integer.toString(input.hashCode()), result);
+    	   resultMap.forEach((k,v)->System.out.println(k + "=" + v));
        }
 	}
 
